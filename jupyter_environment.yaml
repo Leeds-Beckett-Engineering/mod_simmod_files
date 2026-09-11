@@ -1,4 +1,4 @@
-name: jupyter_test
+name: jupyter
 channels:
   - defaults
 dependencies:
