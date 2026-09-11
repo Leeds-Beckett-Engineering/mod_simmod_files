@@ -1,0 +1,22 @@
+name: jupyter_test
+channels:
+  - defaults
+dependencies:
+  - matplotlib[version='>=3.10']
+  - numpy[version='>=2.5']
+  - pandas[version='>=3.0']
+  - scipy[version='>=1.18']
+  - statsmodels[version='>=0.14']
+  - conda-forge::black-jupyter
+  - conda-forge::isort
+  - anaconda::lxml
+  - jupyter-lsp[versions'>=2.3.0']
+  - jupyter_client[versions'>=8.8']
+  - jupyter_core[versions'>=5.9']
+  - jupyter_events[versions'>=0.12']
+  - jupyter_server[versions'>=2.17']
+  - jupyter_server_terminals[versions'>=0.5']
+  - jupyterlab[versions'>=4.5']
+  - jupyterlab_pygments[versions'>=0.3']
+  - jupyterlab_server[versions'>=2.28']
+  - jupyterlab_widgets[versions'>=3.0']

@@ -1,0 +1,30 @@
+# Ignore anything in the Attic
+Attic/**
+
+# Ignore the VS workspace
+.vscode/**
+
+# Ignore temporary files
+Reference/Ref_Handbook-export/**
+\setlength{\headheight}{20.39996pt}.
+*-luamml-mathml.html
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Ignore cruft
+*.aux
+*.bak
+*.bak*
+*.backup
+*.fdb_latexmk
+*.fls
+*.kate-swp
+*.lof
+*.log
+*.lot
+*.new
+*.ref
+*.swp
+*.tmb
+*.toc
+*.tuc
